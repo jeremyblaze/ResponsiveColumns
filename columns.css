@@ -1,0 +1,89 @@
+/* Responsive column layout by Jeremy Blazé (www.github.com/jeremyblaze) */
+
+.test-block {
+	background: #ddd;
+	display: block;
+	width: 100%;
+	height: 60px;
+}
+
+.columns {
+	overflow: hidden;
+}
+
+.columns-wrap {
+	margin-left: -2%;
+	margin-right: -2%;
+}
+
+.col {
+	float: left;
+	display: block;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+/* Columns */
+
+	.span_1_of_1 {
+		width: 96%;
+	}
+
+	.span_1_of_2 {
+		width: 46%;
+	}
+
+	.span_1_of_3 {
+		width: 29.333%;
+	}
+
+		.span_2_of_3 {
+			width: 62.666%;
+		}
+
+	.span_1_of_4 {
+		width: 21%;
+	}
+
+		.span_2_of_4 {
+			width: 46%;
+		}
+
+		.span_3_of_4 {
+			width: 71%;
+		}
+
+	.span_1_of_5 {
+		width: 16%;
+	}
+
+		.span_2_of_5 {
+			width: 36%;
+		}
+
+		.span_3_of_5 {
+			width: 56%;
+		}
+
+		.span_4_of_5 {
+			width: 76%;
+		}
+
+/* Responsive break */
+
+	@media only screen and (max-width: 500px) {
+
+		.columns-wrap {
+			margin-top: -2%;
+			margin-left: 0;
+			margin-right: 0;
+		}
+
+		.col {
+			width: 100%;
+			margin-top: 2%;
+			margin-left: 0;
+			margin-right: 0;
+		}
+
+	}
