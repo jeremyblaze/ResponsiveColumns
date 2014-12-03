@@ -1,7 +1,7 @@
 /* Responsive column layout by Jeremy Blazé (www.github.com/jeremyblaze) */
 
 .test-block {
-	background: #ddd;
+	background: #DF698D;
 	display: block;
 	width: 100%;
 	height: 60px;
@@ -26,12 +26,18 @@
 /* Columns */
 
 	.span_1_of_1 {
-		width: 96%;
+		width: 100%;
+		margin: 0;
 	}
 
 	.span_1_of_2 {
 		width: 46%;
 	}
+
+		.span_2_of_2 {
+			width: 100%;
+			margin: 0;
+		}
 
 	.span_1_of_3 {
 		width: 29.333%;
@@ -39,6 +45,11 @@
 
 		.span_2_of_3 {
 			width: 62.666%;
+		}
+
+		.span_3_of_3 {
+			width: 100%;
+			margin: 0;
 		}
 
 	.span_1_of_4 {
@@ -51,6 +62,11 @@
 
 		.span_3_of_4 {
 			width: 71%;
+		}
+
+		.span_4_of_4 {
+			width: 100%;
+			margin: 0;
 		}
 
 	.span_1_of_5 {
@@ -69,9 +85,101 @@
 			width: 76%;
 		}
 
+		.span_5_of_5 {
+			width: 100%;
+			margin: 0;
+		}
+
+	.span_1_of_6 {
+		width: 12.666%;
+	}
+
+		.span_2_of_6 {
+			width: 29.332%;
+		}
+
+		.span_3_of_6 {
+			width: 46%;
+		}
+
+		.span_4_of_6 {
+			width: 62.666%;
+		}
+
+		.span_5_of_6 {
+			width: 79.332%;
+		}
+
+		.span_6_of_6 {
+			width: 100%;
+			margin: 0;
+		}
+
+	.span_1_of_7 {
+		width: 10.286%;
+	}
+
+		.span_2_of_7 {
+			width: 24.572%;
+		}
+
+		.span_3_of_7 {
+			width: 38.858%;
+		}
+
+		.span_4_of_7 {
+			width: 53.114%;
+		}
+
+		.span_5_of_7 {
+			width: 67.43%;
+		}
+
+		.span_6_of_7 {
+			width: 81.716%;
+		}
+
+		.span_7_of_7 {
+			width: 100%;
+			margin: 0;
+		}
+
+	.span_1_of_8 {
+		width: 8.5%;
+	}
+
+		.span_2_of_8 {
+			width: 21%;
+		}
+
+		.span_3_of_8 {
+			width: 33.5%;
+		}
+
+		.span_4_of_8 {
+			width: 46%;
+		}
+
+		.span_5_of_8 {
+			width: 58.5%;
+		}
+
+		.span_6_of_8 {
+			width: 71%;
+		}
+
+		.span_7_of_8 {
+			width: 83.5%;
+		}
+
+		.span_8_of_8 {
+			width: 100%;
+			margin: 0;
+		}
+
 /* Responsive break */
 
-	@media only screen and (max-width: 500px) {
+	@media only screen and (max-width: 600px) {
 
 		.columns-wrap {
 			margin-top: -2%;
