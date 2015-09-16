@@ -34,3 +34,5 @@ You can have up to 5 columns. If you're really tricky, you can do things like th
 	</div>
 </div>
 ```
+
+If you want the columns to be spaced once they're turned to rows on mobile, just add `class="spaceOnMobile"` to the `columns` div.
