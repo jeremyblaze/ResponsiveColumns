@@ -17,7 +17,7 @@ This is how you make 2 columns.
 </div>
 ```
 
-You can have up to 5 columns. If you're really tricky, you can do things like this.
+You can have up to 8 columns. If you're really tricky, you can do things like this.
 
 ```html
 <div class="columns">
