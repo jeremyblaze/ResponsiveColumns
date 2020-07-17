@@ -38,6 +38,10 @@ h2 {
 	color: #999;
 }
 
+.columns {
+	margin-bottom: 30px;
+}
+
 a.button {
 	display: inline-block;
 	padding: 30px 50px;
