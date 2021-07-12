@@ -14,8 +14,12 @@
 	margin: 0 -30px;
 }
 
+.cols.vCenter,
+.columns.vCenter {
+	align-items: center;
+}
+
 .col {
-	float: left;
 	display: block;
 	margin: 0 30px;
 }

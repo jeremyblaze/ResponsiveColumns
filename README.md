@@ -36,3 +36,4 @@ Other features...
 - Add row spacing on mobile by adding the `.spaceOnMobile` class to the `.columns` element
 - Add `.preserveOnMobile` to the `.columns` element and the columns will no longer break to rows on mobile
 - Adjust the default gutter width by doing a find and replace of `60px`, and adjust the secondary gutter width by doing the same with `30px`
+- Add `.vCenter` to the `.columns` element and the content will be centered vertically
